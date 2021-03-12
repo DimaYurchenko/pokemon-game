@@ -9,11 +9,26 @@ import bg2 from './bg2.jpg';
 const App = () => {
   return (
     <>
-      <Header />
-      <Layout urlBg={bg1}/>
-      <Layout colorBg="red"/>
-      <Layout urlBg={bg2}/>
-      <Footer />
+      <Header
+        title='Title'
+        desc='description'
+      />
+      <Layout
+        title='Title'
+        desc='description'
+        urlBg={bg1}
+      />
+      <Layout
+        title='Title'
+        desc='description'
+        colorBg="red"
+      />
+      <Layout
+        title='Title'
+        desc='description'
+        urlBg={bg2}
+      />
+      <Footer/>
     </>
   );
 }
